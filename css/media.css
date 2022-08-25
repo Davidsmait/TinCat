@@ -1,0 +1,11 @@
+@media (max-width: 1000px) {
+  .section-title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
