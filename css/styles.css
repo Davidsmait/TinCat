@@ -3,9 +3,17 @@ body {
   font-family: "Montserrat";
 }
 
-.bolder-mo {
-  font-family: 'Montserrat';
+
+.logo-title, .title-head-h1, .pricing-title, .pricing-card-header, .card-price, .cta-title, .features-h3, .testimonial-h2  {
   font-weight: bold;
+}
+
+.feature-containers, .testimonials, .press, .pricing, .cta, .footer  {
+  text-align: center;
+}
+
+.feature-p, .pricing-subtitle, .pricing-body-text, .footer-p{
+  color: #8f8f8f;
 }
 
 /* navbar */
@@ -20,7 +28,6 @@ body {
 .logo-title {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2.5rem;
-  font-weight: bold;
 }
 
 .navbar {
@@ -38,8 +45,6 @@ body {
 /* title */
 .title-head-h1 {
   color: #fff;
-  font-family: 'Montserrat';
-  font-weight: bold;
   font-size: 3.5rem;
   line-height: 1.5;
 }
@@ -65,7 +70,6 @@ body {
 }
 
 .feature-containers {
-  text-align: center;
   padding: 5%;
 }
 
@@ -75,8 +79,6 @@ body {
 
 .features-h3 {
   font-size: 1.5rem;
-  font-family: 'Montserrat';
-  font-weight: bold;
 }
 
 .feature-icon {
@@ -86,9 +88,6 @@ body {
   margin-bottom: 20px;
 }
 
-.feature-p {
-  color: #8f8f8f;
-}
 
 /* Testimonials */
 .carouselTestimonials {
@@ -98,12 +97,9 @@ body {
 .testimonials {
   background-color: #ef8172;
   color: #fff;
-  text-align: center;
 }
 
 .testimonial-h2 {
-  font-family: 'Montserrat';
-  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -116,7 +112,6 @@ body {
 /* press */
 .press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -127,7 +122,6 @@ body {
 
 /* pricing */
 .pricing {
-  text-align: center;
   padding: 100px;
 }
 
@@ -141,20 +135,12 @@ body {
 
 .pricing-subtitle {
   font-size: 1.2rem;
-  color: #8f8f8f;
 }
-
-.pricing-body-text {
-  color: #8f8f8f;
-}
-
-
 
 /* call to action */
 .cta {
   background-color: #ff4c68;
   padding: 3% 13% 3%;
-  text-align: center;
   ;
 }
 
@@ -166,7 +152,6 @@ body {
 
 /* footer */
 .footer {
-  text-align: center;
   background-color: #fff;
   padding: 10% 13% 10%;
 }
@@ -177,8 +162,4 @@ body {
 
 .footer-icon{
   padding: 0 10px;
-}
-
-.footer-p{
-    color: #8f8f8f;
 }
